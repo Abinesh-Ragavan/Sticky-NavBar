@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.top-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBB2iVeiuoHvt-uBmTXuZXw6ibk5pLQpPoSsi6yEOCP6zN_KupOAQoo37tUfuKtY5XLXg&usqp=CAU);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+.top-container h1{
+    color: white;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.text{
+    margin: 40px 5%;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 1);
+    transition:   background-color 2s;
+}
+.navbar ul  {
+    display: flex;
+  list-style-type: none;
+
+}
+
+.navbar ul li a {
+    margin: 0 8px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: red;
+
+}
+
+
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+    color: white;
+}
