@@ -1,2 +1,2 @@
-# Sticky-NavBar ...... webiste url(" https://new-project-6904d.web.app")
+# Sticky-NavBar ...... webiste url(" https://sticky-navbar.web.app")
 This sticky nav bar will consist of  color -effect-transition while scrooling  
